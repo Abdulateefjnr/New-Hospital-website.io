@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevena LTD Website Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Main Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Vendor -->
+    <link rel="stylesheet" href="vendor//bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/aos/aos.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Montserrat:ital,wght@0,100..900;1,100..900&family
+    =Mukta:wght@200&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Roboto+Slab&family
+    =Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <!-- Navigation -->
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="nav-bar" id="navbar">
+                    <i class="header-toggle bi bi-x-lg" style="color: #223a66;" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="service.html">service</a></li>
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">Department <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="department.html">Department</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">doctors <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="doctors.html">doctors</a></li>
+                                <li><a href="doctor single.html">doctor single</a></li>
+                                <li><a href="appointment.html">appointment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <li><a href="contact-us.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="header-toggle  bi bi-list" onclick="showmenu()"></i>
+            </nav>
+        </div> 
+    </header> 
+
+
+    <!-- Main -->
+    <main>
+
+        <div class="ex-header">
+            <div class="row">
+                <div class="col-xl-10" data-aos="fade-up">
+                    <span>Doctor Details</span>
+                    <h1>Alexandar james</h1>
+                </div> 
+            </div> 
+        </div>
+
+        <!-- Doctor Single Section -->
+        <section id="doctor-single">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="doctor-single-col-4">
+                        <div class="doctor-single-img-block">
+                            <img src="images/team/1.jpg" alt="" data-aos="fade-up" data-aos-delay="200">
+                            <div class="doctor-single-content">
+                                <h4 data-aos="fade-up" data-aos-delay="300">Thomas Henry</h4>
+                                <p data-aos="fade-up" data-aos-delay="400">Orthopedic Surgary</p>
+                                <ul class="doctor-single-social-media" data-aos="fade-up" data-aos-delay="500">
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="doctor-single-col-8">
+                        <div class="doctor-single-details">
+                            <h2 data-aos="fade-up" data-aos-delay="400">Introducing to myself</h2>
+                            <p data-aos="fade-up" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam tempore cumque voluptate beatae quis inventore sapiente nemo, a eligendi nostrum expedita veritatis neque incidunt ipsa doloribus provident ex, at ullam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, perferendis officiis esse quae, nobis eius explicabo quidem? Officia accusamus repudiandae ea esse non reiciendis accusantium voluptates, facilis enim, corrupti eligendi?</p>
+                            <p data-aos="fade-up" data-aos-delay="600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo recusandae veritatis minus optio quod obcaecati laborum temporibus, deleniti vero perferendis molestias, ducimus facilis, sunt minima. Tempora, amet quasi asperiores voluptas?</p>
+                            <a href="service.html" class="btn" data-aos="fade-up" data-aos-delay="700">Make An Appoinment<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+        <!-- Doctor Qualifications -->
+        <section id="doctor-quali">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="doctor-col-lg-6">
+                        <div class="doctor-quali-section-title">
+                            <h3>My Educational Qualifications</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="doctor-col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="edu-block">
+                            <span>Year(2005-2007) </span>
+					        <h4>MBBS, M.D at University of Wyoming</h4>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                        </div>
+                    </div>
+                    <div class="doctor-col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="edu-block">
+                            <span>Year(2007-2009) </span>
+					        <h4>M.D. of Netherland Medical College</h4>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                        </div>
+                    </div>
+                    <div class="doctor-col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="edu-block">
+                            <span>Year(2009-2010) </span>
+					        <h4>MBBS, M.D at University of Japan</h4>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                        </div>
+                    </div>
+                    <div class="doctor-col-lg-6" data-aos="fade-up" data-aos-delay="500">
+                        <div class="edu-block">
+                            <span>Year(2010-2011) </span>
+					        <h4>M.D. of Canada Medical College</h4>
+					        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque harum, mollitia, soluta maxime porro veritatis fuga autem impedit corrupti aperiam sint, architecto, error nesciunt temporibus! Vel quod, dolor aliquam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Doctor - Skills -->
+        <section id="doctor-skills">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="doctor-col-lg-4">
+                        <h3 data-aos="fade-up" data-aos-delay="200">My skills</h3>
+                        <p data-aos="zoom-in" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In architecto voluptatem alias, aspernatur voluptatibus corporis quisquam? Consequuntur, ad, doloribus, doloremque voluptatem at consectetur natus eum ipsam dolorum iste laudantium tenetur.</p>
+                    </div>
+                    <div class="doctor-col-lg-4">
+                        <div class="skill-list" data-aos="zoom-in" data-aos-delay="200">
+					        <h5 data-aos="fade-up" data-aos-delay="300">Expertise area</h5>
+					        <ul class="department-service">
+						        <li><i class="bi bi-check"></i>International Drug Database</li>
+						        <li><i class="bi bi-check"></i>Stretchers and Stretcher Accessories</li>
+						        <li><i class="bi bi-check"></i>Cushions and Mattresses</li>
+						        <li><i class="bi bi-check"></i>Cholesterol and lipid tests</li>
+						        <li><i class="bi bi-check"></i>Critical Care Medicine Specialists</li>
+						        <li><i class="bi bi-check"></i>Emergency Assistance</li>
+					        </ul>
+				        </div>
+                    </div>
+                    <div class="doctor-col-lg-4">
+                        <div class="sidebar-widget">
+					        <h5 data-aos="fade-up" data-aos-delay="400">Make Appoinment</h5>
+
+					        <ul class="list-unstyled" data-aos="zoom-in" data-aos-delay="300">
+					          <li>
+					            <a href="#">Monday - Friday</a>
+					            <span>9:00 - 17:00</span>
+					          </li>
+					          <li>
+					            <a href="#">Saturday</a>
+					            <span>9:00 - 16:00</span>
+					          </li>
+					          <li>
+					            <a href="#">Sunday</a>
+					            <span>Closed</span>
+					          </li>
+					        </ul>
+
+					        <div class="sidebar-contatct-info">
+						        <p class="mb-0">Need Urgent Help?</p>
+						        <h3 >+23-4565-65768</h3>
+					        </div>
+				        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+       
+
+    <!-- Footer Section-->
+    <footer id="footer">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-5 footer-about" data-aos="fade-up" data-aos-delay="200">
+                    <a href="index.html" class="logo">
+                      <span class="sitename">Nevena Limited</span>
+                    </a>
+                    <p>Hi, I’m Abdullateef — a web designer and content creator. Welcome to my website! 
+                        I craft creative designs and share inspiring content. Feel free to reach out if 
+                        you need help or want to collaborate.</p>
+                    <div class="social-links">
+                      <a href=""><i class="bi bi-whatsapp"></i></a><!--twitter-x-->
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="300">
+                  <h4>Department</h4>
+                  <ul>
+                    <li><a href="#">Surgery</a></li>
+                    <li><a href="#">Wome's Health</a></li>
+                    <li><a href="#">Radiology</a></li>
+                    <li><a href="#">Cardioc</a></li>
+                    <li><a href="#">Mediciney</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="400">
+                  <h4>Support</h4>
+                  <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Company Support</a></li>
+                    <li><a href="#">FAQuestions</a></li>
+                    <li><a href="#">Company Licence</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact" data-aos="fade-up" data-aos-delay="500">
+                  <h4>Contact Us</h4>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                  <p>United States</p>
+                  <p class="mt-4"><strong>Phone:</strong> <span> +1 5589 55488 55</span></p>
+                  <p><strong>Email:</strong> <span> info@example.com</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">LateefDev</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="#">LateefDevMade</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+    
+<!-- jQuery must load FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Vendor libraries -->
+<script src="vendor/counterup/jquery.waypoints.min.js"></script>
+<script src="vendor/counterup/jquery.counterup.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/slick-carousel/slick/slick.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="js/main.js"></script>
+
+    <!-- jQuery (must be before slick.js) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Your JS -->
+<script src="Js/main.js"></script>
+
+<script>
+    //Animation on scroll function and init
+  function aosInit() {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', aosInit);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevena LTD Website Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Main Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Vendor -->
+    <link rel="stylesheet" href="vendor//bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/aos/aos.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Montserrat:ital,wght@0,100..900;1,100..900&family
+    =Mukta:wght@200&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Roboto+Slab&family
+    =Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <!-- Navigation -->
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="nav-bar" id="navbar">
+                    <i class="header-toggle bi bi-x-lg" style="color: #223a66;" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="service.html">service</a></li>
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">Department <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="department.html">Department</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">doctors <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="doctors.html">doctors</a></li>
+                                <li><a href="doctor single.html">doctor single</a></li>
+                                <li><a href="appointment.html">appointment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <li><a href="contact-us.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="header-toggle  bi bi-list" onclick="showmenu()"></i>
+            </nav>
+        </div> 
+    </header> 
+
+
+    <!-- Main -->
+    <main>
+
+        <div class="ex-header">
+            <div class="row">
+                <div class="col-xl-10">
+                    <span>Our services</span>
+                    <h1>What We Do</h1>
+                </div> 
+            </div> 
+        </div>
+
+        <!-- Team Section -->
+<div id="team">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="team-department-col">
+          <img src="images/service/service-1.jpg" alt="Ophthalmology Department">
+          <div class="team-content">
+            <h4>Child care</h4>
+            <p>Comprehensive eye care services including vision exams, surgery, and treatment for eye conditions.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="team-department-col">
+          <img src="images/service/service-2.jpg" alt="Cardiology Department">
+          <div class="team-content">
+            <h4>Personal Care</h4>
+            <p>Expert heart care including diagnostics, treatment, and preventive cardiology services.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="team-department-col">
+          <img src="images/service/service-3.jpg" alt="Dental Care Department">
+          <div class="team-content">
+            <h4>CT scan</h4>
+            <p>Providing full dental services from cleanings to advanced oral surgery for a healthy smile.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="team-department-col">
+          <img src="images/service/service-4.jpg" alt="Child Care Department">
+          <div class="team-content">
+            <h4>Joint replacement</h4>
+            <p>Dedicated pediatric care focusing on children’s health, growth, and well-being.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="team-department-col">
+          <img src="images/service/service-6.jpg" alt="Pulmonology Department">
+          <div class="team-content">
+            <h4>Examination & Diagnosis</h4>
+            <p>Specialized in treating respiratory and lung conditions with advanced diagnostic tools.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-col-4" data-aos="fade-up" data-aos-delay="700">
+        <div class="team-department-col">
+          <img src="images/service/service-8.jpg" alt="Gynecology Department">
+          <div class="team-content">
+            <h4>Alzheimer's disease</h4>
+            <p>Comprehensive women’s health care, including reproductive and prenatal services.</p>
+            <a href="department-single.html" class="read-more">Learn More <i class="bi bi-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        <!-- Attention Secion-->
+        <section id="attention">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="attention-col-lg-7">
+                        <div class="attention-content">
+                            <div class="divider"></div>
+                            <h2 data-aos="fade-up" data-aos-delay="200">We are pleased to offer you the <span>chance to have the healthy</span></h2>
+                            <a href="service.html" class="btn" data-aos="fade-up" data-aos-delay="300">Make An Appoinment<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+       
+
+    <!-- Footer Section-->
+    <footer id="footer">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-5 footer-about" data-aos="fade-up" data-aos-delay="200">
+                    <a href="index.html" class="logo">
+                      <span class="sitename">Nevena Limited</span>
+                    </a>
+                    <p>Hi, I’m Abdullateef — a web designer and content creator. Welcome to my website! 
+                        I craft creative designs and share inspiring content. Feel free to reach out if 
+                        you need help or want to collaborate.</p>
+                    <div class="social-links">
+                      <a href=""><i class="bi bi-whatsapp"></i></a><!--twitter-x-->
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="300">
+                  <h4>Department</h4>
+                  <ul>
+                    <li><a href="#">Surgery</a></li>
+                    <li><a href="#">Wome's Health</a></li>
+                    <li><a href="#">Radiology</a></li>
+                    <li><a href="#">Cardioc</a></li>
+                    <li><a href="#">Mediciney</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="400">
+                  <h4>Support</h4>
+                  <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Company Support</a></li>
+                    <li><a href="#">FAQuestions</a></li>
+                    <li><a href="#">Company Licence</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact" data-aos="fade-up" data-aos-delay="500">
+                  <h4>Contact Us</h4>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                  <p>United States</p>
+                  <p class="mt-4"><strong>Phone:</strong> <span> +1 5589 55488 55</span></p>
+                  <p><strong>Email:</strong> <span> info@example.com</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">LateefDev</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="#">LateefDevMade</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+    
+<!-- jQuery must load FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Vendor libraries -->
+<script src="vendor/counterup/jquery.waypoints.min.js"></script>
+<script src="vendor/counterup/jquery.counterup.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/slick-carousel/slick/slick.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="js/main.js"></script>
+
+    <!-- jQuery (must be before slick.js) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Your JS -->
+<script src="Js/main.js"></script>
+
+<script>
+    //Animation on scroll function and init
+  function aosInit() {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', aosInit);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevena LTD Website Template</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Main Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Vendor -->
+    <link rel="stylesheet" href="vendor//bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="vendor/aos/aos.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick-carousel/slick/slick.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Montserrat:ital,wght@0,100..900;1,100..900&family
+    =Mukta:wght@200&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Roboto+Slab&family
+    =Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="nav-bar" id="navbar">
+                    <i class="header-toggle bi bi-x-lg" style="color: #223a66;" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="service.html">service</a></li>
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">Department <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="department.html">Department</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <!-- Dropdown Menu Start -->
+                        <li class="dropdown">
+                            <a href="#project" class="dropdown-toggle" onclick="toggleDropdown(event)">doctors <i class="bi bi-caret-down-fill"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="doctors.html">doctors</a></li>
+                                <li><a href="doctor single.html">doctor single</a></li>
+                                <li><a href="appointment.html">appointment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown Menu End -->
+                        <li><a href="contact-us.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="header-toggle  bi bi-list" onclick="showmenu()"></i>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main -->
+    <main>
+        <!-- Header -->
+        <section id="header">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="header-col-12">
+                        <div class="header-content">
+                            <div class="divider"></div>
+                            <span data-aos="fade-left" data-aos-delay="400">Complete Care, All in One Place</span>
+					        <h1 data-aos="flip-up" data-aos-delay="200">Health You Can Trust, Care You Deserve</h1>
+                            <p data-aos="flip-up" data-aos-delay="300">We provide compassionate, personalized care with advanced facilities and expert doctors—your trusted partner in health.</p>
+                            <div class="btn-container" data-aos="flip-up" data-aos-delay="350">
+						        <a href="appoinment.html" target="_blank" class="btn">Make appoinment <i class="bi bi-arrow-right"></i></a>
+					        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature -->
+        <section id="feature">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="feature-col-12">
+                        <div class="feature-block">
+                            <div class="feature-item" data-aos="fade-up" data-aos-delay="150">
+                                <div class="feature-icon">
+							        <i class="bi bi-calendar-check"></i>
+						        </div>
+                                <span>24 Hours Service</span>
+						        <h4>Online Appoinment</h4>
+						        <p>Get ALl time support for emergency.We have introduced the principle of family medicine.</p>
+                                <a href="appoinment.html" class="btn btn-2">Make a appoinment</a>
+                            </div>
+                            <div class="feature-item" data-aos="fade-up" data-aos-delay="250">
+                                <div class="feature-icon">
+							        <i class="bi bi-clock"></i>
+						        </div>
+                                <span>Timing schedule</span>
+						        <h4>Working Hours</h4>
+						        <ul class="w-hours">
+		                            <li class="d-flex justify-content-between">Sun - Wed : <span>8:00 - 17:00</span></li>
+		                            <li class="d-flex justify-content-between">Thu - Fri : <span>9:00 - 17:00</span></li>
+		                            <li class="d-flex justify-content-between">Sat - sun : <span>10:00 - 17:00</span></li>
+		                        </ul>
+                            </div>
+                            <div class="feature-item" data-aos="fade-up" data-aos-delay="350">
+                                <div class="feature-icon">
+							        <i class="bi bi-telephone-inbound"></i>
+						        </div>
+                                <span>Emegency Cases</span>
+						        <h4>1-800-700-6200</h4>
+						        <p>Get ALl time support for emergency.We have introduced the principle of family medicine.Get Conneted with us for any urgency .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="about-col-4 ab-col-6">
+                        <div class="about-img" data-aos="fade-up" data-aos-delay="150">
+                            <img src="images/about/img-1.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-delay="250" src="images/about/img-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="about-col-4 ab-col-6">
+                        <div class="about-img">
+                            <img data-aos="fade-up" data-aos-delay="300" src="images/about/img-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="about-col-4">
+                        <div class="about-content">
+                            <h2 data-aos="fade-up" data-aos-delay="350">Personalized Care <br> & Healthy Living</h2>
+					        <p data-aos="fade-up" data-aos-delay="150">We deliver expert medical services tailored to your needs. Enjoy compassionate care, cutting-edge treatments, and a healthier life designed around you.</p>
+					        <a href="service.html" class="btn">Services<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Cta -->
+        <section id="cta-section">
+            <div class="container" data-aos="fade-up">
+                <div class="cta">
+                    <div class="row">
+                        <div class="cta-col-3">
+                            <div class="counter-stat">
+                                <i class="bi bi-person-hearts"></i>
+						        <span>50</span>
+						        <p>Happy People</p>
+                            </div>
+                        </div>
+                        <div class="cta-col-3">
+                            <div class="counter-stat">
+                                <i class="bi bi-flag-fill"></i>
+						        <span class="h3">700</span>+
+						        <p>Surgery Comepleted</p>    
+                            </div>
+                        </div>
+                        <div class="cta-col-3">
+                            <div class="counter-stat">
+                                <i class="bi bi-award-fill"></i>
+						        <span class="h3">40</span>+
+						        <p>Expert Doctors</p>
+                            </div>
+                        </div>
+                        <div class="cta-col-3">
+                            <div class="counter-stat">
+                                <i class="bi bi-globe2"></i>
+						        <span>50</span>
+						        <p>Worldwide Branch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service -->
+<div id="service">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="section-title">
+                <h2>Award-Winning Patient Care</h2>
+                <p>Discover our departments providing top-quality medical care with expert professionals and advanced technology.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="100">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-eyedropper"></i>
+                        <h4>Laboratory Services</h4>
+                    </div>
+                    <div class="content">
+                        <p>Offering accurate diagnostic testing and advanced lab analyses to support precise medical treatment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="150">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                        <h4>Heart Disease</h4>
+                    </div>
+                    <div class="content">
+                        <p>Providing comprehensive cardiac care including diagnosis, treatment, and prevention of heart conditions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="200">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-shield-plus"></i>
+                        <h4>Dental Care</h4>
+                    </div>
+                    <div class="content">
+                        <p>Ensuring healthy smiles through preventive dentistry, restorative treatments, and oral hygiene education.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="300">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-hospital"></i>
+                        <h4>Body Surgery</h4>
+                    </div>
+                    <div class="content">
+                        <p>Offering safe and effective surgical procedures performed by skilled specialists in modern facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="400">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-cpu"></i>
+                        <h4>Neurology Surgery</h4>
+                    </div>
+                    <div class="content">
+                        <p>Specialized in advanced neurological and brain surgeries to treat disorders of the nervous system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-col-lg-4" data-aos="zoom-out" data-aos-delay="500">
+                <div class="service-item">
+                    <div class="icon">
+                        <i class="bi bi-diagram-3"></i>
+                        <h4>Gynecology</h4>
+                    </div>
+                    <div class="content">
+                        <p>Providing compassionate women’s health care including reproductive, prenatal, and postnatal services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Appoinment -->
+        <div id="appointment">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="appointment-col-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="appointment-content">
+					        <img src="images/about/img-3.jpg" alt="" class="img-fluid">
+					        <div class="emergency">
+						        <h2><i class="bi bi-telephone-fill"></i>+1 5589 55488 55</h2>
+					        </div>
+				        </div>
+                    </div>
+                    <div class="appointment-col-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="appoinment-wrap">
+                            <h2>Book appoinment</h2>
+					        <p>Easily schedule your appointment with our experienced doctors. We’re committed to providing compassionate, high-quality care tailored to your needs.</p>
+                            <form id="#" class="appoinment-form" method="post" action="#">
+                                <div class="row">
+                                     <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                              <option>Choose Department</option>
+                                              <option>Software Design</option>
+                                              <option>Development cycle</option>
+                                              <option>Software Development</option>
+                                              <option>Maintenance</option>
+                                              <option>Process Query</option>
+                                              <option>Cost and Duration</option>
+                                              <option>Modal Delivery</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <select class="form-control" id="exampleFormControlSelect2">
+                                              <option>Select Doctors</option>
+                                              <option>Software Design</option>
+                                              <option>Development cycle</option>
+                                              <option>Software Development</option>
+                                              <option>Maintenance</option>
+                                              <option>Process Query</option>
+                                              <option>Cost and Duration</option>
+                                              <option>Modal Delivery</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                     <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="time" id="time" type="text" class="form-control" placeholder="Time">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Full Name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input name="phone" id="phone" type="Number" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group-2">
+                                    <textarea name="message" id="message" class="form-control" rows="6" placeholder="Your Message"></textarea>
+                                </div>
+
+                                <a class="btn"  style="border-radius: 50pz;" href="appoinment.html" >Make Appoinment <i class="bi bi-arrow-right"></i></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Testimonial Section -->
+        <section id="testimonial">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>We served over 5000+ Patients</h2>
+					    <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="swiper init-swiper">
+                        <script type="application/json" class="swiper-config">
+                          {
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                              "delay": 5000
+                            },
+                            "slidesPerView": "auto",
+                            "pagination": {
+                              "el": ".swiper-pagination",
+                              "type": "bullets",
+                              "clickable": true
+                            },
+                            "breakpoints": {
+                              "320": {
+                                "slidesPerView": 1,
+                                "spaceBetween": 40
+                              },
+                              "1200": {
+                                "slidesPerView": 3,
+                                "spaceBetween": 20
+                              }
+                            }
+                          }
+                        </script>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> 
+                              <div class="testimonial-item">
+                                <p>
+                                    <i class=" bi bi-quote quote-icon-left"></i>
+                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                    <img src="images/team/1.jpg" class="testimonial-img" alt="">
+                                    <h3>Amazing Service!</h3>
+                                    <h4>Saul goodman</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <p>
+                                    <i class=" bi bi-quote quote-icon-left"></i>
+                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                    <img src="images/team/2.jpg" class="testimonial-img" alt="">
+                                    <h3>Amazing Service!</h3>
+                                    <h4>Saul goodman</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide"> 
+                              <div class="testimonial-item">
+                                <p>
+                                    <i class=" bi bi-quote quote-icon-left"></i>
+                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                    <img src="images/team/3.jpg" class="testimonial-img" alt="">
+                                    <h3>Amazing Service!</h3>
+                                    <h4>Saul goodman</h4>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <p>
+                                    <i class=" bi bi-quote quote-icon-left"></i>
+                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                    </p>
+                                    <img src="images/team/4.jpg" class="testimonial-img" alt="">
+                                    <h3>Amazing Service!</h3>
+                                    <h4>Saul goodman</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Client -->
+        <div id="client">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>We served over 5000+ Patients</h2>
+					    <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+                    </div>
+                </div>
+                <div class="row clients-logo">
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/1.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/2.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/3.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/4.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/5.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                    <div class="col-lg-2">
+				       <div class="client-thumb">
+					        <img src="images/about/6.png" alt="" class="img-fluid">
+				       </div>
+			        </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Section-->
+    <footer id="footer">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-5 footer-about" data-aos="fade-up" data-aos-delay="200">
+                    <a href="index.html" class="logo">
+                      <span class="sitename">Nevena Limited</span>
+                    </a>
+                    <p>Hi, I’m Abdullateef — a web designer and content creator. Welcome to my website! 
+                        I craft creative designs and share inspiring content. Feel free to reach out if 
+                        you need help or want to collaborate.</p>
+                    <div class="social-links">
+                      <a href=""><i class="bi bi-whatsapp"></i></a><!--twitter-x-->
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="300">
+                  <h4>Department</h4>
+                  <ul>
+                    <li><a href="#">Surgery</a></li>
+                    <li><a href="#">Wome's Health</a></li>
+                    <li><a href="#">Radiology</a></li>
+                    <li><a href="#">Cardioc</a></li>
+                    <li><a href="#">Mediciney</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links" data-aos="fade-up" data-aos-delay="400">
+                  <h4>Support</h4>
+                  <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Company Support</a></li>
+                    <li><a href="#">FAQuestions</a></li>
+                    <li><a href="#">Company Licence</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact" data-aos="fade-up" data-aos-delay="500">
+                  <h4>Contact Us</h4>
+                  <p>A108 Adam Street</p>
+                  <p>New York, NY 535022</p>
+                  <p>United States</p>
+                  <p class="mt-4"><strong>Phone:</strong> <span> +1 5589 55488 55</span></p>
+                  <p><strong>Email:</strong> <span> info@example.com</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">LateefDev</strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="#">LateefDevMade</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+    
+<!-- jQuery must load FIRST -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Vendor libraries -->
+<script src="vendor/counterup/jquery.waypoints.min.js"></script>
+<script src="vendor/counterup/jquery.counterup.min.js"></script>
+<script src="vendor/swiper/swiper-bundle.min.js"></script>
+<script src="vendor/aos/aos.js"></script>
+<script src="vendor/slick-carousel/slick/slick.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="js/main.js"></script>
+
+<!-- jQuery (must be before slick.js) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- Your JS -->
+<script src="Js/main.js"></script>
+
+<script>
+    //Animation on scroll function and init
+  function aosInit() {
+    AOS.init({
+      duration: 600,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }
+  window.addEventListener('load', aosInit);
+</script>
+
+</body>
+</html>
